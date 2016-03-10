@@ -1,8 +1,13 @@
 /* CSS Entry Point */
 
+
+
+
+
 .app {
 	background-color: #eee;
-	height: 1000px;
+	height: 100%;
+	width: 100%;
 	margin: 0;
 
 
@@ -32,12 +37,15 @@ header {
 
 .toptop img {
 	width: 80px;
+	margin-left: 250px;
 }
 
 
 
 .toptopright {
 	float: right;
+	margin-right: 250px;
+	// vertical-align: 100px;
 }
 
 
@@ -68,6 +76,9 @@ nav a {
 aside {
 	border: 1px solid #ccc;
 	display: inline-block;
+	background-color: white;
+	width: 220px;
+	padding-left: 15px;
 
 	
 }
@@ -75,12 +86,15 @@ aside {
 
 
 aside.ul {
+ 
 	
 }
 
 
 
-aside.ul li{
+ul {
+list-style: none;
+padding: 0;
 
 	
 }
@@ -102,7 +116,7 @@ aside.ul li{
 	display: inline-block;
 	width: 18px;
 	height: 18px;
-	background-color: #093890;
+	background-color: red;
 	border-radius: 12%;
 
 }
@@ -112,7 +126,7 @@ aside.ul li{
 	display: inline-block;
 	width: 18px;
 	height: 18px;
-	background-color: #093890;
+	background-color: orange;
 	border-radius: 12%;
 
 }
@@ -122,7 +136,7 @@ aside.ul li{
 	display: inline-block;
 	width: 18px;
 	height: 18px;
-	background-color: #093890;
+	background-color: yellow;
 	border-radius: 12%;
 
 }
@@ -132,7 +146,7 @@ aside.ul li{
 	display: inline-block;
 	width: 18px;
 	height: 18px;
-	background-color: #093890;
+	background-color: green;
 	border-radius: 12%;
 }
 
@@ -142,7 +156,7 @@ aside.ul li{
 	display: inline-block;
 	width: 18px;
 	height: 18px;
-	background-color: #093890;
+	background-color: blue;
 	border-radius: 12%;
 }
 
@@ -152,7 +166,7 @@ aside.ul li{
 	display: inline-block;
 	width: 18px;
 	height: 18px;
-	background-color: #093890;
+	background-color: purple;
 	border-radius: 12%;
 }
 
@@ -162,7 +176,7 @@ aside.ul li{
 	display: inline-block;
 	width: 18px;
 	height: 18px;
-	background-color: #093890;
+	background-color: black;
 	border-radius: 12%;
 
 }
@@ -173,17 +187,33 @@ aside.ul li{
 	display: inline-block;
 	width: 18px;
 	height: 18px;
-	background-color: #093890;
+	background-color: white;
+	border: .5px solid #ccc;
 	border-radius: 12%;
 
+
 }
+
+
+
+.orderingoptions{
+	margin-top: 15px;
+}
+
+
+
+
+////////////////////////////MAIN//////
+
 
 
 
 main {
 	border: 2px solid blue;
 	display: inline-block;
-
+	float: right;
+	///check this float in the future if positions are weird//
+	background-color: white;
 }
 
 
@@ -209,6 +239,7 @@ main {
 	border: 1px solid red;
 	display: inline-block;
 	margin-right: 10px;
+	margin-left: 10px;
 
 }
 
@@ -232,7 +263,14 @@ main {
 
 
 footer {
-	position-bottom: 0;
+	clear: both;
+	border-top: 1px solid gray;
+	padding-top: 25px;
+	padding-left: 250px;
+	padding-right: 250px;
+	padding-bottom: 50px;
+	background-color: white;
+
 
 }
 
