@@ -2,17 +2,16 @@
 
 
 
+.body {
+	margin:0;
+}
+
 
 
 .app {
 	background-color: #eee;
 	height: 100%;
 	width: 100%;
-	margin: 0;
-
-
-
-
 }
 
 
@@ -21,12 +20,13 @@
 	margin-right: 250px;
 	margin-left: 250px;
 	margin-top: 20px;
-	height: 100%
-
+	height: 100%;
 	
 }
 
 
+
+//////////////////////////////////////////////
 
 header {
 	background-color: white;
@@ -45,10 +45,9 @@ header {
 .toptopright {
 	float: right;
 	margin-right: 250px;
-	// vertical-align: 100px;
 }
 
-
+/////////////////////////////////////////////
 
 nav {
 	border-top: 1px solid #ccc;
@@ -73,14 +72,26 @@ nav a {
 }
 
 
+////////////////////////////////////////////
+
 aside {
 	border: 1px solid #ccc;
+	border-radius: 4px;
 	display: inline-block;
 	background-color: white;
 	width: 220px;
-	padding-left: 15px;
+	height: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
 
 	
+}
+
+
+.itemtype {
+	border-bottom: 1px solid #ccc;
+	padding-top: 10px;
+	padding-bottom:10px;
 }
 
 
@@ -99,108 +110,109 @@ padding: 0;
 	
 }
 
+a {
+	text-decoration: none;
+}
+
 
 
 .sidePrice {
+	border-bottom: 1px solid #ccc;
+	padding-top: 10px;
+	padding-bottom:10px;
 
 }
 
 
+/////
+
+
 .colorbox {
-	
-	margin-left: 4px;
+	border-bottom: 1px solid #ccc;
+	padding-top: 10px;
+	padding-bottom:10px;
+
+}
+
+.colorbox div {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	border-radius: 15%;
+	border: .5px solid #ccc;
+
+
 }
 
 
 .colorboxred {
-	display: inline-block;
-	width: 18px;
-	height: 18px;
 	background-color: red;
-	border-radius: 12%;
-
 }
 
 
 .colorboxorange{
-	display: inline-block;
-	width: 18px;
-	height: 18px;
 	background-color: orange;
-	border-radius: 12%;
-
 }
 
 
 .colorboxyellow{
-	display: inline-block;
-	width: 18px;
-	height: 18px;
 	background-color: yellow;
-	border-radius: 12%;
-
 }
 
 
 .colorboxgreen{
-	display: inline-block;
-	width: 18px;
-	height: 18px;
 	background-color: green;
-	border-radius: 12%;
 }
 
 
 
 .colorboxblue{
-	display: inline-block;
-	width: 18px;
-	height: 18px;
 	background-color: blue;
-	border-radius: 12%;
 }
 
 
 
 .colorboxpurple{
-	display: inline-block;
-	width: 18px;
-	height: 18px;
 	background-color: purple;
-	border-radius: 12%;
 }
 
 
 
 .colorboxblack{
-	display: inline-block;
-	width: 18px;
-	height: 18px;
 	background-color: black;
-	border-radius: 12%;
-
 }
 
 
 
 .colorboxwhite{
-	display: inline-block;
-	width: 18px;
-	height: 18px;
 	background-color: white;
-	border: .5px solid #ccc;
-	border-radius: 12%;
-
-
 }
+
+
+/////
+
 
 
 
 .orderingoptions{
+	border-bottom: 1px solid #ccc;
 	margin-top: 15px;
 }
 
 
+.shoplocation{
+	border-bottom: 1px solid #ccc;
+}
+
+
+.shipto {
+	padding: 10px;
+}
+
+.shipto button {
+	width: 200px;
+	padding: 5px;
+}
 
 
 ////////////////////////////MAIN//////
@@ -209,58 +221,70 @@ padding: 0;
 
 
 main {
-	border: 2px solid blue;
-	display: inline-block;
-	float: right;
-	///check this float in the future if positions are weird//
-	background-color: white;
-}
-
-
-
-.mainlink1 {
-
-}
-
-.mainlink2 {
-	float: right;
-
-}
-
-.contentboxes {
+	margin-bottom: 20px;
+	padding: 10px;
+	float:right;
+	
 	
 
 }
 
 
-.box1 {
-	width: 200px;
-	height: 150px;
-	border: 1px solid red;
-	display: inline-block;
-	margin-right: 10px;
+
+.mainlink1 {
+	float: left;
 	margin-left: 10px;
 
+	
 }
 
+.sortby {
+	float: right;
+	margin-right: 15px;
 
-.box2 {
+
+}
+
+.contentboxes {
+
+
+}
+
+// .contentboxes {
+// 	border-radius: 3px;
+// 	width: 100px;
+// 	height: 100px;
+// 	border: 1px solid #ccc;
+// 	display: inline-block;
+// 	margin-top: 20px;
+// 	margin-right: 5px;
+// 	margin-left: 5px;
+// 	margin-bottom: 10px;
+// 	float: right;
+// }
+
+.contentboxescontainer  {
+	border-radius: 3px;
 	width: 200px;
 	height: 150px;
-	border: 1px solid red;
+	border: 1px solid #ccc;
 	display: inline-block;
-	margin-right: 10px;
+	margin-top: 20px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
+
+.box1 {
+	width:100%;
+
 }
 
 
-.box3 {
-	width: 200px;
-	height: 150px;
-	border: 1px solid red;
-	display: inline-block;
-	margin-right: 10px;
-}
 
+
+
+///////////////////////////////////////////////
 
 footer {
 	clear: both;
