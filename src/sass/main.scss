@@ -1,28 +1,77 @@
 /* CSS Entry Point */
 
 .app {
+	background-color: #eee;
+	height: 1000px;
+	margin: 0;
+
+
+
 
 }
+
 
 
 .wrapper {
+	margin-right: 250px;
+	margin-left: 250px;
+	margin-top: 20px;
+	height: 100%
+
 	
 }
+
 
 
 header {
+	background-color: white;
 	
 }
 
 
+
+.toptop img {
+	width: 80px;
+}
+
+
+
+.toptopright {
+	float: right;
+}
+
+
+
 nav {
-	
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	display: inline-block;
+	padding-left: 250px;
+	padding-right: 250px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width:100%;
+
+
+}
+
+
+
+nav a {
+	text-decoration: none;
+	padding-left: 8px;
+
+
 }
 
 
 aside {
+	border: 1px solid #ccc;
+	display: inline-block;
+
 	
 }
+
 
 
 aside.ul {
@@ -30,21 +79,161 @@ aside.ul {
 }
 
 
+
 aside.ul li{
+
 	
 }
 
 
-aside.div {
+
+.sidePrice {
 
 }
 
 
-main {
+.colorbox {
+	
+	margin-left: 4px;
+}
 
+
+.colorboxred {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-color: #093890;
+	border-radius: 12%;
+
+}
+
+
+.colorboxorange{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-color: #093890;
+	border-radius: 12%;
+
+}
+
+
+.colorboxyellow{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-color: #093890;
+	border-radius: 12%;
+
+}
+
+
+.colorboxgreen{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-color: #093890;
+	border-radius: 12%;
+}
+
+
+
+.colorboxblue{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-color: #093890;
+	border-radius: 12%;
+}
+
+
+
+.colorboxpurple{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-color: #093890;
+	border-radius: 12%;
+}
+
+
+
+.colorboxblack{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-color: #093890;
+	border-radius: 12%;
+
+}
+
+
+
+.colorboxwhite{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background-color: #093890;
+	border-radius: 12%;
+
+}
+
+
+
+main {
+	border: 2px solid blue;
+	display: inline-block;
+
+}
+
+
+
+.mainlink1 {
+
+}
+
+.mainlink2 {
+	float: right;
+
+}
+
+.contentboxes {
+	
+
+}
+
+
+.box1 {
+	width: 200px;
+	height: 150px;
+	border: 1px solid red;
+	display: inline-block;
+	margin-right: 10px;
+
+}
+
+
+.box2 {
+	width: 200px;
+	height: 150px;
+	border: 1px solid red;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+
+.box3 {
+	width: 200px;
+	height: 150px;
+	border: 1px solid red;
+	display: inline-block;
+	margin-right: 10px;
 }
 
 
 footer {
+	position-bottom: 0;
 
 }
+
+
