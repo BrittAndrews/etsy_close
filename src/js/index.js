@@ -45,6 +45,7 @@ var itemHtml = products.map(function(product) {
 
 	var image 			= product.Images[0].url_170x135;
 	var description = product.title;
+	var seller 			= product.Shop.shop_name;
 	var price 			= product.price;
 	var title 			= product.title;
 	
@@ -56,6 +57,7 @@ var itemHtml = products.map(function(product) {
         <img src="${image}" alt="${description}">
         </div>
       <div class="item-title">${title}</div>
+      <div class="seller">${seller}</div>
       <div class="price">${price}</div>
     </div>
   `;
