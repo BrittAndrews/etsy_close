@@ -83,6 +83,7 @@ aside {
 	height: 100%;
 	padding-left: 10px;
 	padding-right: 10px;
+	margin-bottom: 20px;
 
 	
 }
@@ -221,9 +222,10 @@ a {
 
 
 main {
+	border: 2px solid red;
 	margin-bottom: 20px;
-	padding: 10px;
-	float:right;
+	float: right;
+	width: 670px;
 	
 	
 
@@ -235,51 +237,68 @@ main {
 	float: left;
 	margin-left: 10px;
 
+
 	
 }
 
 .sortby {
+
 	float: right;
-	margin-right: 15px;
+	margin-right: 25px;
 
-
-}
-
-.contentboxes {
 
 
 }
 
-// .contentboxes {
-// 	border-radius: 3px;
-// 	width: 100px;
-// 	height: 100px;
-// 	border: 1px solid #ccc;
-// 	display: inline-block;
-// 	margin-top: 20px;
-// 	margin-right: 5px;
-// 	margin-left: 5px;
-// 	margin-bottom: 10px;
-// 	float: right;
-// }
+/////////////IMPORTANT STUFF////
+
 
 .contentboxescontainer  {
+	border: 2px solid green;
+	margin: 0;
+
+}
+
+
+.contentboxes {
+	background-color: white;
+	border: 1px solid #bbb;
 	border-radius: 3px;
 	width: 200px;
-	height: 150px;
-	border: 1px solid #ccc;
 	display: inline-block;
 	margin-top: 20px;
 	margin-right: 5px;
 	margin-left: 5px;
 	margin-bottom: 10px;
-}
-
-.box1 {
-	width:100%;
 
 }
 
+
+.box1 {	
+	border-radius: 3px;
+	border-radius: 3px;
+
+}
+
+.box1 img {
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+}
+
+
+.item-title{
+	padding-left: 2px;
+	padding-right: 2px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.price {
+	padding-left: 2px;
+	padding-right: 2px;
+
+}
 
 
 
