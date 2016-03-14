@@ -2,9 +2,10 @@
 
 
 
-.body {
-	margin:0;
-}
+// .body {
+// 	margin:0;
+
+// }
 
 
 
@@ -12,17 +13,26 @@
 	background-color: #eee;
 	height: 100%;
 	width: 100%;
+
 }
 
 
 
 .wrapper {
+
 	margin-right: 200px;
 	margin-left: 200px;
 	margin-top: 20px;
 	height: 100%;
 	
 }
+
+
+a {
+	color: #0192B5;
+	text-decoration: none;
+}
+
 
 
 
@@ -46,7 +56,11 @@ header {
 .toptopright {
 	float: right;
 	margin-right: 200px;
+	border-right: 1px solid #ccc;
+	padding: 10px;
 }
+
+
 
 /////////////////////////////////////////////
 
@@ -100,28 +114,19 @@ aside {
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-bottom: 20px;
-
-	
 }
 
 
 .itemtype {
 	border-bottom: 1px solid #ccc;
-	padding-top: 10px;
-	padding-bottom:10px;
+	padding-top: 20px;
+	padding-bottom:20px;
 }
 
-.itemtype h4 {
-	margin: 0;
+.itemtype h5 {
+	margin-bottom: 10px;
+	margin-top: 5px;
 }
-
-
-
-aside.ul {
- 
-	
-}
-
 
 
 ul {
@@ -131,17 +136,22 @@ padding: 0;
 	
 }
 
-a {
-	text-decoration: none;
-}
-
 
 
 .sidePrice {
 	border-bottom: 1px solid #ccc;
-	padding-top: 10px;
-	padding-bottom:10px;
+	padding-top: 20px;
+	padding-bottom:20px;
 
+}
+
+.sidePrice input {
+	width: 50px;
+	border: 1px solid #ccc;
+	border-radius: 10%;
+	padding: 10px;
+	font-size: medium;
+	color: #ccc;
 }
 
 
@@ -152,6 +162,9 @@ a {
 	border-bottom: 1px solid #ccc;
 	padding-top: 10px;
 	padding-bottom:10px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-weight: bold;
 
 }
 
@@ -161,6 +174,7 @@ a {
 	height: 18px;
 	border-radius: 15%;
 	border: .5px solid #ccc;
+
 
 
 }
@@ -218,22 +232,41 @@ a {
 .orderingoptions{
 	border-bottom: 1px solid #ccc;
 	margin-top: 15px;
+	padding-bottom: 20px;
 }
 
 
 .shoplocation{
+	padding-bottom: 20px;
 	border-bottom: 1px solid #ccc;
+
 }
+
+.shoplocation h5 {
+	margin: 0;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+// .shoplocation a {
+
+// }
 
 
 .shipto {
-	padding: 10px;
+	padding-bottom: 20px;
+	padding-top: 20px;
 }
 
 .shipto button {
 	margin-top: 5px;
-	width: 200px;
-	padding: 5px;
+	width: 225px;
+	padding: 12px;
+	text-align: left;
+	background-color: white;
+	border: 1px solid #ccc;
+	font-size: 14px;
+
 }
 
 
@@ -245,27 +278,43 @@ a {
 main {
 	margin-bottom: 20px;
 	float: right;
-	position: static;
-	width: 660px;
+	width: 75%;
 	font-family: arial;
 	
 
 }
 
 
+.linkstopofboxes {
+	font-size: 14px;
+}
+
 
 .mainlink1 {
 	float: left;
 	margin-left: 10px;
-
-
 	
 }
+
+.mainlink1 span {
+	color: black;
+	font-weight: bold;
+}
+
 
 .sortby {
 
 	float: right;
 	margin-right: 25px;
+	color: #0192B5;
+
+}
+
+.sortby button {
+	border: none;
+	background: none;
+	font-size: 14px;
+	color: black;
 
 }
 
@@ -276,7 +325,7 @@ main {
 
 .contentboxescontainer  {
 	margin: 0;
-
+	clear: both;
 }
 
 
@@ -284,15 +333,18 @@ main {
 	background-color: white;
 	border: 1px solid #bbb;
 	border-radius: 3px;
-	width: 200px;
+	width: 31%;
 	display: inline-block;
-	margin-top: 20px;
+	margin-top: 5px;
 	margin-right: 5px;
 	margin-left: 5px;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 
 }
 
+// .contentboxes:hover {
+//   hearthover goes here
+// }
 
 .box1 {	
 	border-radius: 3px;
@@ -300,15 +352,18 @@ main {
 
 }
 
+
 .box1 img {
 	width: 100%;
 	border-bottom: 1px solid #ccc;
 }
 
 
+
 .item-title{
-	padding-left: 4px;
-	padding-right: 4px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -317,16 +372,18 @@ main {
 
 
 .seller {
-	padding-left: 4px;
-	padding-right: 4px;
+	// padding-left: 4px;
+	// padding-right: 4px;
+	padding: 5px;
 	font-size: small;
 	color: #aaa;
 	float: left;
 
 }
 .price {
-	padding-left: 4px;
-	padding-right: 4px;
+	// padding-left: 4px;
+	// padding-right: 4px;
+	padding: 5px;
 	font-size: small;
 	color: lighten(green, 20%);
 	float: right;
@@ -336,18 +393,154 @@ main {
 
 
 
-///////////////////////////////////////////////
+///////////////////end of page////////////////////////////
 
-footer {
+.endofpage{
 	clear: both;
-	border-top: 1px solid gray;
-	padding-top: 25px;
-	padding-left: 250px;
-	padding-right: 250px;
-	padding-bottom: 50px;
-	background-color: white;
+	height: 75px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
 
 
 }
+
+.columnone{
+	clear: both;
+	display: inline-block;
+	margin-right: 30px;
+
+}
+
+
+.columntwo {
+	clear: both;
+	display: inline-block;
+	margin-right: 30px;
+
+
+}
+
+.columnthree{
+	clear: both;
+	display: inline-block;
+
+
+
+}
+
+/////////////////footer///////////////////////////////
+
+
+footer {
+	font-family: arial;
+	margin-top: 50px;
+	clear: both;
+
+	border-top: 1px solid gray;
+	padding-top: 25px;
+	// padding-left: 250px;
+	// padding-right: 250px;
+	padding-bottom: 50px;
+	width: 100%;
+	text-align: center;
+
+
+}
+
+
+
+
+.toptrends {
+	padding-top: 20px;
+	border: 10px solid #eee;
+	border-radius: 10px;
+	display: inline-block;
+	width: 70%;
+	height: 100px;
+	
+	
+}
+
+
+.toptrends input {
+	width: 200px;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 5px; 
+}
+
+.toptrends button {
+	padding: 10px;
+	background-color: #0192B5;
+	color: white;
+	font-size: 15px;
+	border-radius: 5px;
+
+}
+
+
+
+
+.bottomcolumns {
+	margin-top: 50px;
+	font-size: 14px;
+	margin-left: 200px;
+	margin-right: 200px;
+	text-align: left;
+}
+
+
+
+.footer1 {
+	display:inline-block;
+	margin-right: 80px;
+}
+
+
+.footer1 button{
+	margin-top: 10px;
+
+}
+
+
+
+.footer2 {
+	display:inline-block;
+	margin-right: 80px;
+	
+}
+
+
+.footer3 {
+	display:inline-block;
+	margin-right: 80px;
+
+}
+
+.footer4 {
+	display:inline-block;
+	margin-right: 80px;
+
+}
+
+.footer5 {
+	display:inline-block;
+	margin-right: 80px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
